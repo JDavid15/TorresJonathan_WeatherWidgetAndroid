@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TorresJonathan_CE03</string>
+    <string name="config_Text">Config</string>
+    <string name="WeatherApp_String">Weather App</string>
+    <string name="loading">Loading</string>
+    <string name="orlando_fl">Orlando, FL</string>
+    <string name="arecibo_pr">Arecibo, PR</string>
+    <string name="san_francisco_ca">San Francisco, CA</string>
+    <string name="noInternet_Toast">No Internet access</string>
+    <string name="wiget_loading_string">Loading Data</string>
+    <string name="High_String">Hi:</string>
+    <string name="Low_String">Low:</string>
+    <string name="orlando_pref">Orlando</string>
+    <string name="dark_pref">Dark</string>
+</resources>

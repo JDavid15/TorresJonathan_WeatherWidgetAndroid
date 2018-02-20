@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Location Settings" >
+
+    <ListPreference
+        android:dialogTitle="Change Location"
+        android:key="com.example.john.torresjonathan_ce03.PREF_LOCATION"
+        android:summary="Choose an Location to display data"
+        android:title="Choose an Location"
+        android:entries="@array/location_Names"
+        android:entryValues="@array/selection_Names"
+        android:defaultValue="@string/orlando_pref"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Widget Theme" >
+
+        <ListPreference
+            android:dialogTitle="Change Theme"
+            android:key="com.example.john.torresjonathan_ce03.PREF_THEME"
+            android:summary="Choose widget color theme"
+            android:title="Choose a Theme"
+            android:entries="@array/theme_Name"
+            android:defaultValue="@string/dark_pref"
+            android:entryValues="@array/theme_Ids"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

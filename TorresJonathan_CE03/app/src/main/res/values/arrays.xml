@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="location_Names">
+        <item>Orlando,FL</item>
+        <item>Arecibo,PR</item>
+        <item>San Francisco,CA</item>
+    </string-array>
+
+    <string-array name="selection_Names">
+        <item>Orlando</item>
+        <item>Arecibo</item>
+        <item>San Francisco</item>
+    </string-array>
+
+
+
+    <string-array name="location_Urls">
+        <item>http://api.wunderground.com/api/75d23c2c71b2ab5a/conditions/q/FL/Orlando.json</item>
+        <item>http://api.wunderground.com/api/75d23c2c71b2ab5a/conditions/q/PR/Arecibo.json</item>
+        <item>http://api.wunderground.com/api/75d23c2c71b2ab5a/conditions/q/CA/San_Francisco.json</item>
+    </string-array>
+
+    <string-array name="forecast_Urls">
+        <item>http://api.wunderground.com/api/75d23c2c71b2ab5a/forecast/q/FL/Orlando.json</item>
+        <item>http://api.wunderground.com/api/75d23c2c71b2ab5a/forecast/q/PR/Arecibo.json</item>
+        <item>http://api.wunderground.com/api/75d23c2c71b2ab5a/forecast/q/CA/San_Francisco.json</item>
+    </string-array>
+
+
+    <string-array name="theme_Name">
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+    <string-array name="theme_Ids">
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+</resources>

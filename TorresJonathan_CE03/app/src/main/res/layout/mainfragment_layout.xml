@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/loadingTitle_TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/loading"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/orlando_fl"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Date1_Today_TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textAlignment="center"
+                        android:textSize="23sp" />
+
+                    <ImageView
+                        android:id="@+id/Date1_Today_Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/Date1_Today_Hi_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/Date1_Today_Low_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Date1_Tomorrow_TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textAlignment="center"
+                        android:textSize="23sp" />
+
+                    <ImageView
+                        android:id="@+id/Date1_Tomorrow_Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/Date1_Tomorrow_Hi_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/Date1_Tomorrow_Low_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Date1_Last_TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textAlignment="center"
+                        android:textSize="23sp" />
+
+                    <ImageView
+                        android:id="@+id/Date1_Last_Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/Date1_Last_Hi_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/Date1_Last_Low_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/arecibo_pr"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+
+            <LinearLayout
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Date2_Today_TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textAlignment="center"
+                        android:textSize="23sp" />
+
+                    <ImageView
+                        android:id="@+id/Date2_Today_Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/Date2_Today_Hi_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/Date2_Today_Low_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Date2_Tomorrow_TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textAlignment="center"
+                        android:textSize="23sp" />
+
+                    <ImageView
+                        android:id="@+id/Date2_Tomorrow_Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/Date2_Tomorrow_Hi_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/Date2_Tomorrow_Low_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Date2_Last_TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textAlignment="center"
+                        android:textSize="23sp" />
+
+                    <ImageView
+                        android:id="@+id/Date2_Last_Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/Date2_Last_Hi_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/Date2_Last_Low_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/san_francisco_ca"
+                android:textAlignment="center"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Date3_Today_TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textAlignment="center"
+                        android:textSize="23sp" />
+
+                    <ImageView
+                        android:id="@+id/Date3_Today_Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/Date3_Today_Hi_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/Date3_Today_Low_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Date3_Tomorrow_TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textAlignment="center"
+                        android:textSize="23sp" />
+
+                    <ImageView
+                        android:id="@+id/Date3_Tomorrow_Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/Date3_Tomorrow_Hi_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/Date3_Tomorrow_Low_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/Date3_Last_TextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:textAlignment="center"
+                        android:textSize="23sp" />
+
+                    <ImageView
+                        android:id="@+id/Date3_Last_Icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp" />
+
+                    <TextView
+                        android:id="@+id/Date3_Last_Hi_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/Date3_Last_Low_TimeView"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:textAlignment="center"
+                        android:textSize="17sp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
